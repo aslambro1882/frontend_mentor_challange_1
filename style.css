@@ -25,37 +25,33 @@ body {
 }
 
 .card {
-  height: 70%;
-  max-width: 200px;
+  max-width: 18%;
   background-color: #ffffff;
   padding: 10px;
   border-radius: 10px;
-  /* line-height: 18px; */
-  /* text-align: center; */
+  text-align: center;
+}
+.card div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 91%;
   align-items: center;
-  text-align: center;
 }
-
 img {
   width: 100%;
   border-radius: 10px;
 }
 
 h3 {
-  font-size: 12px;
-  font-weight: 900;
-  width: 175px;
+  font-size: 20px;
   color: #21324e;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
 p {
-  font-size: 8px;
-  width: 175px;
+  font-size: 15px;
   color: #999da6;
 }
 
@@ -67,13 +63,13 @@ p {
   top: 45%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2px;
+  grid-gap: 4px;
   width: 10px;
 }
 
 .dot-box .dot {
-  width: 8px;
-  height: 8px;
+  width: 12px;
+  height: 12px;
   background-color: #7bbac5;
   border-radius: 50%;
 }
@@ -87,34 +83,34 @@ p {
 
 #one {
   background-color: #f8c8c6;
-  width: 20px;
-  height: 45px;
+  width: 30px;
+  height: 85px;
   border-radius: 2px;
 }
 
 #two {
   position: absolute;
   top: 0;
-  left: 5px;
+  left: 10px;
   background-color: #f0f0f0;
-  width: 15px;
-  height: 40px;
+  width: 30px;
+  height: 75px;
 }
 
 /* --------------------------- */
 .skew-box {
   position: absolute;
   top: 50%;
-  right: -2%;
+  right: -10px;
   display: flex;
-  transform: rotate(-3deg);
+  transform: rotate(5deg);
 }
 
 .skew-outer {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   background-color: #f8c8c6;
-  transform: rotate(54deg);
+  transform: rotate(48deg);
   display: flex;
   justify-content: end;
   align-items: end;
@@ -124,7 +120,6 @@ p {
   background-color: #f0f0f0;
   width: 25px;
   height: 25px;
-  /* border: 2px solid black; */
 }
 
 /* -------------------------- */
@@ -133,8 +128,8 @@ p {
   bottom: -4%;
   right: -2%;
   background-color: #d6e1f0;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,8 +137,8 @@ p {
 }
 
 .circle-house div {
-  width: 130px;
-  height: 130px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   background-color: #f0f0f0;
 }
@@ -158,7 +153,7 @@ p {
 
 .stick {
   width: 10px;
-  height: 90px;
+  height: 190px;
   background-color: #d6e1f0;
   transform: rotate(20deg);
 }
@@ -172,12 +167,10 @@ p {
 
   .container {
     width: 100%;
-    /* height: 75%; */
   }
 
   .card {
     min-width: 90%;
-    /* min-height: 90%; */
     height: auto;
   }
 
